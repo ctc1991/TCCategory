@@ -10,6 +10,7 @@ typedef void(^BasicCompletion)(void);
 #import "UIView+Basic.h"
 
 #import "UILabel+TwoSizes.h"
+#import "UILabel+ChangeLineSpaceAndWordSpace.h"
 
 #import "UIColor+Basic.h"
 

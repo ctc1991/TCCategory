@@ -27,6 +27,7 @@
 		18B284081F5D20B1004AC987 /* TwoSizesVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B283FF1F5D20B1004AC987 /* TwoSizesVc.swift */; };
 		18B284091F5D20B1004AC987 /* ViewControllers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B284001F5D20B1004AC987 /* ViewControllers.storyboard */; };
 		18B2840C1F5D21A7004AC987 /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2840B1F5D21A7004AC987 /* BaseVc.swift */; };
+		18D783A21F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D783A11F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,8 @@
 		18B284001F5D20B1004AC987 /* ViewControllers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ViewControllers.storyboard; sourceTree = "<group>"; };
 		18B2840A1F5D212B004AC987 /* OCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBridge.h; sourceTree = "<group>"; };
 		18B2840B1F5D21A7004AC987 /* BaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
+		18D783A01F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
+		18D783A11F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,8 @@
 			children = (
 				18B283DA1F5D1B1A004AC987 /* UILabel+TwoSizes.h */,
 				18B283DB1F5D1B1A004AC987 /* UILabel+TwoSizes.m */,
+				18D783A01F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.h */,
+				18D783A11F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 				18B283F11F5D1B1A004AC987 /* UIViewController+Basic.m in Sources */,
 				18B283EC1F5D1B1A004AC987 /* UIImage+Basic.m in Sources */,
 				18B283EE1F5D1B1A004AC987 /* UILabel+TwoSizes.m in Sources */,
+				18D783A21F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				18B283E91F5D1B1A004AC987 /* NSString+Basic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
