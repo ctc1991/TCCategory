@@ -21,3 +21,5 @@ typedef void(^BasicCompletion)(void);
 #import "UITableView+Basic.h"
 
 #import "NSString+Basic.h"
+
+#import "UITextField+Basic.h"

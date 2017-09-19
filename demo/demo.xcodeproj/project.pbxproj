@@ -28,6 +28,7 @@
 		18B284091F5D20B1004AC987 /* ViewControllers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B284001F5D20B1004AC987 /* ViewControllers.storyboard */; };
 		18B2840C1F5D21A7004AC987 /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2840B1F5D21A7004AC987 /* BaseVc.swift */; };
 		18D783A21F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D783A11F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m */; };
+		18D783A61F70BD3F002D085D /* UITextField+Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D783A51F70BD3F002D085D /* UITextField+Basic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		18B2840B1F5D21A7004AC987 /* BaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
 		18D783A01F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
 		18D783A11F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
+		18D783A41F70BD3F002D085D /* UITextField+Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Basic.h"; sourceTree = "<group>"; };
+		18D783A51F70BD3F002D085D /* UITextField+Basic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Basic.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,7 @@
 		18B283CC1F5D1B1A004AC987 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				18D783A31F70BD2B002D085D /* UITextField */,
 				18B283CD1F5D1B1A004AC987 /* UICollectionView */,
 				18B283D01F5D1B1A004AC987 /* UIColor */,
 				18B283D31F5D1B1A004AC987 /* UIImage */,
@@ -259,6 +263,15 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		18D783A31F70BD2B002D085D /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				18D783A41F70BD3F002D085D /* UITextField+Basic.h */,
+				18D783A51F70BD3F002D085D /* UITextField+Basic.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -339,6 +352,7 @@
 				18B283ED1F5D1B1A004AC987 /* UIImageView+Basic.m in Sources */,
 				18B283EF1F5D1B1A004AC987 /* UITableView+Basic.m in Sources */,
 				18B2840C1F5D21A7004AC987 /* BaseVc.swift in Sources */,
+				18D783A61F70BD3F002D085D /* UITextField+Basic.m in Sources */,
 				18B283F31F5D1B1A004AC987 /* UIViewController+Switch.m in Sources */,
 				18B283F01F5D1B1A004AC987 /* UIView+Basic.m in Sources */,
 				18B283EA1F5D1B1A004AC987 /* UICollectionView+Basic.m in Sources */,
