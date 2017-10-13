@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TCCategory"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "ctc's category."
   s.description  = <<-DESC
   Common class category on iOS.
