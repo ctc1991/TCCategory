@@ -1,11 +1,3 @@
-//
-//  UIButton+Inspectable.m
-//  demo
-//
-//  Created by Tech on 2017/10/13.
-//  Copyright © 2017年 ctc. All rights reserved.
-//
-
 #import "UIButton+Inspectable.h"
 
 @implementation UIButton (Inspectable)

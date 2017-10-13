@@ -1,11 +1,3 @@
-//
-//  UITextField+Inspectable.m
-//  demo
-//
-//  Created by Tech on 2017/10/13.
-//  Copyright © 2017年 ctc. All rights reserved.
-//
-
 #import "UITextField+Inspectable.h"
 
 @implementation UITextField (Inspectable)
@@ -36,6 +28,16 @@
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, taillingSpacing, self.bounds.size.height)];
     self.rightView = view;
     self.rightViewMode = UITextFieldViewModeAlways;
+}
+
+- (void)setBorderStyleNone:(BOOL)borderStyleNone {
+    if (borderStyleNone) {
+        self.borderStyle = UITextBorderStyleNone;
+    }
+}
+
+- (BOOL)borderStyleNone {
+    return self.borderStyle == UITextBorderStyleNone;
 }
 
 @end
