@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1804EBC51F906F270016217A /* UIView+Inspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804EBC41F906F270016217A /* UIView+Inspectable.m */; };
+		1804EBC81F906FCF0016217A /* UITextField+Inspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804EBC71F906FCF0016217A /* UITextField+Inspectable.m */; };
+		1804EBCC1F90703E0016217A /* UIButton+Inspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804EBCB1F90703E0016217A /* UIButton+Inspectable.m */; };
 		18B283E91F5D1B1A004AC987 /* NSString+Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B283CA1F5D1B1A004AC987 /* NSString+Basic.m */; };
 		18B283EA1F5D1B1A004AC987 /* UICollectionView+Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B283CF1F5D1B1A004AC987 /* UICollectionView+Basic.m */; };
 		18B283EB1F5D1B1A004AC987 /* UIColor+Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B283D21F5D1B1A004AC987 /* UIColor+Basic.m */; };
@@ -32,6 +35,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1804EBC31F906F270016217A /* UIView+Inspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Inspectable.h"; sourceTree = "<group>"; };
+		1804EBC41F906F270016217A /* UIView+Inspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Inspectable.m"; sourceTree = "<group>"; };
+		1804EBC61F906FCF0016217A /* UITextField+Inspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Inspectable.h"; sourceTree = "<group>"; };
+		1804EBC71F906FCF0016217A /* UITextField+Inspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Inspectable.m"; sourceTree = "<group>"; };
+		1804EBCA1F90703E0016217A /* UIButton+Inspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Inspectable.h"; sourceTree = "<group>"; };
+		1804EBCB1F90703E0016217A /* UIButton+Inspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Inspectable.m"; sourceTree = "<group>"; };
 		18B283B01F5D1AAA004AC987 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B283C91F5D1B1A004AC987 /* NSString+Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Basic.h"; sourceTree = "<group>"; };
 		18B283CA1F5D1B1A004AC987 /* NSString+Basic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Basic.m"; sourceTree = "<group>"; };
@@ -83,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1804EBC91F9070200016217A /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				1804EBCA1F90703E0016217A /* UIButton+Inspectable.h */,
+				1804EBCB1F90703E0016217A /* UIButton+Inspectable.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		18B283A71F5D1AAA004AC987 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +166,7 @@
 		18B283CC1F5D1B1A004AC987 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				1804EBC91F9070200016217A /* UIButton */,
 				18D783A31F70BD2B002D085D /* UITextField */,
 				18B283CD1F5D1B1A004AC987 /* UICollectionView */,
 				18B283D01F5D1B1A004AC987 /* UIColor */,
@@ -222,6 +241,8 @@
 			children = (
 				18B283E01F5D1B1A004AC987 /* UIView+Basic.h */,
 				18B283E11F5D1B1A004AC987 /* UIView+Basic.m */,
+				1804EBC31F906F270016217A /* UIView+Inspectable.h */,
+				1804EBC41F906F270016217A /* UIView+Inspectable.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -268,6 +289,8 @@
 			children = (
 				18D783A41F70BD3F002D085D /* UITextField+Basic.h */,
 				18D783A51F70BD3F002D085D /* UITextField+Basic.m */,
+				1804EBC61F906FCF0016217A /* UITextField+Inspectable.h */,
+				1804EBC71F906FCF0016217A /* UITextField+Inspectable.m */,
 			);
 			path = UITextField;
 			sourceTree = "<group>";
@@ -354,12 +377,15 @@
 				18B2840C1F5D21A7004AC987 /* BaseVc.swift in Sources */,
 				18D783A61F70BD3F002D085D /* UITextField+Basic.m in Sources */,
 				18B283F31F5D1B1A004AC987 /* UIViewController+Switch.m in Sources */,
+				1804EBC81F906FCF0016217A /* UITextField+Inspectable.m in Sources */,
 				18B283F01F5D1B1A004AC987 /* UIView+Basic.m in Sources */,
 				18B283EA1F5D1B1A004AC987 /* UICollectionView+Basic.m in Sources */,
 				18B284081F5D20B1004AC987 /* TwoSizesVc.swift in Sources */,
 				18B283EB1F5D1B1A004AC987 /* UIColor+Basic.m in Sources */,
+				1804EBCC1F90703E0016217A /* UIButton+Inspectable.m in Sources */,
 				18B284061F5D20B1004AC987 /* ViewController.swift in Sources */,
 				18B283F11F5D1B1A004AC987 /* UIViewController+Basic.m in Sources */,
+				1804EBC51F906F270016217A /* UIView+Inspectable.m in Sources */,
 				18B283EC1F5D1B1A004AC987 /* UIImage+Basic.m in Sources */,
 				18B283EE1F5D1B1A004AC987 /* UILabel+TwoSizes.m in Sources */,
 				18D783A21F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
@@ -470,7 +496,7 @@
 				DEVELOPMENT_TEAM = CSB4G2D8VB;
 				INFOPLIST_FILE = "$(SRCROOT)/demo/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ctc.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctc.demo.tccategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9e4368b8-311c-4c51-9759-77340b5b899a";
 				PROVISIONING_PROFILE_SPECIFIER = ForAll;
@@ -486,7 +512,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "$(SRCROOT)/demo/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ctc.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctc.demo.tccategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = demo/Main/OCBridge.h;
