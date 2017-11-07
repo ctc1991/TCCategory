@@ -7,6 +7,8 @@ typedef void(^BasicCompletion)(void);
 #import "UIViewController+Navi.h"
 #import "UIViewController+Switch.h"
 
+#import "UIAlertController+Basic.h"
+
 #import "UIView+Basic.h"
 
 #import "UILabel+TwoSizes.h"

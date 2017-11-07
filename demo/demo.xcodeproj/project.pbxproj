@@ -30,6 +30,8 @@
 		18B284081F5D20B1004AC987 /* TwoSizesVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B283FF1F5D20B1004AC987 /* TwoSizesVc.swift */; };
 		18B284091F5D20B1004AC987 /* ViewControllers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B284001F5D20B1004AC987 /* ViewControllers.storyboard */; };
 		18B2840C1F5D21A7004AC987 /* BaseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2840B1F5D21A7004AC987 /* BaseVc.swift */; };
+		18BD16B51FB0452300D37113 /* UIAlertController+Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD16B41FB0452300D37113 /* UIAlertController+Basic.m */; };
+		18BD16BC1FB048D500D37113 /* AlertControllerVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD16BB1FB048D500D37113 /* AlertControllerVc.swift */; };
 		18D783A21F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D783A11F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m */; };
 		18D783A61F70BD3F002D085D /* UITextField+Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D783A51F70BD3F002D085D /* UITextField+Basic.m */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,9 @@
 		18B284001F5D20B1004AC987 /* ViewControllers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ViewControllers.storyboard; sourceTree = "<group>"; };
 		18B2840A1F5D212B004AC987 /* OCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBridge.h; sourceTree = "<group>"; };
 		18B2840B1F5D21A7004AC987 /* BaseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVc.swift; sourceTree = "<group>"; };
+		18BD16B31FB0452300D37113 /* UIAlertController+Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Basic.h"; sourceTree = "<group>"; };
+		18BD16B41FB0452300D37113 /* UIAlertController+Basic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Basic.m"; sourceTree = "<group>"; };
+		18BD16BB1FB048D500D37113 /* AlertControllerVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerVc.swift; sourceTree = "<group>"; };
 		18D783A01F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeLineSpaceAndWordSpace.h"; sourceTree = "<group>"; };
 		18D783A11F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeLineSpaceAndWordSpace.m"; sourceTree = "<group>"; };
 		18D783A41F70BD3F002D085D /* UITextField+Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Basic.h"; sourceTree = "<group>"; };
@@ -176,6 +181,7 @@
 				18B283DC1F5D1B1A004AC987 /* UITableView */,
 				18B283DF1F5D1B1A004AC987 /* UIView */,
 				18B283E21F5D1B1A004AC987 /* UIViewConroller */,
+				18BD16B21FB0450F00D37113 /* UIAlertController */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -279,9 +285,19 @@
 			isa = PBXGroup;
 			children = (
 				18B283FF1F5D20B1004AC987 /* TwoSizesVc.swift */,
+				18BD16BB1FB048D500D37113 /* AlertControllerVc.swift */,
 				18B284001F5D20B1004AC987 /* ViewControllers.storyboard */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18BD16B21FB0450F00D37113 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				18BD16B31FB0452300D37113 /* UIAlertController+Basic.h */,
+				18BD16B41FB0452300D37113 /* UIAlertController+Basic.m */,
+			);
+			path = UIAlertController;
 			sourceTree = "<group>";
 		};
 		18D783A31F70BD2B002D085D /* UITextField */ = {
@@ -387,6 +403,8 @@
 				18B283F11F5D1B1A004AC987 /* UIViewController+Basic.m in Sources */,
 				1804EBC51F906F270016217A /* UIView+Inspectable.m in Sources */,
 				18B283EC1F5D1B1A004AC987 /* UIImage+Basic.m in Sources */,
+				18BD16BC1FB048D500D37113 /* AlertControllerVc.swift in Sources */,
+				18BD16B51FB0452300D37113 /* UIAlertController+Basic.m in Sources */,
 				18B283EE1F5D1B1A004AC987 /* UILabel+TwoSizes.m in Sources */,
 				18D783A21F6FBF76002D085D /* UILabel+ChangeLineSpaceAndWordSpace.m in Sources */,
 				18B283E91F5D1B1A004AC987 /* NSString+Basic.m in Sources */,

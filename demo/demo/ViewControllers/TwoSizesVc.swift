@@ -15,7 +15,7 @@ class TwoSizesVc: BaseVc {
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLbl("TwoSizesVc", color: UIColor.white)
-        setLeftBtn("返回", image: "navi_arrow_right", action: #selector(popVc))
+        setLeftBtn("返回", image: "", action: #selector(popVc))
         initLbl()
     }
     
