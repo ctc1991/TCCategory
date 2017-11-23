@@ -28,7 +28,7 @@
 + (instancetype)actionSheetWithTitle:(NSString *)title message:(NSString *)message cancelText:(NSString *)cancelText cancelHandler:(UIAlertActionHandler)cancelHandler actions:(NSArray<UIAlertAction *> *)actions {
     UIAlertController *alertController = [self actionSheetWithTitle:title message:message actions:actions];
     if (cancelText && ![cancelText isEqualToString:@""]) {
-        [alertController addAction:[UIAlertAction actionWithTitle:cancelText style:UIAlertActionStyleDefault handler:cancelHandler]];
+        [alertController addAction:[UIAlertAction actionWithTitle:cancelText style:UIAlertActionStyleCancel handler:cancelHandler]];
     } else {
         [alertController addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:cancelHandler]];
     }
